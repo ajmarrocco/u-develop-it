@@ -6,6 +6,7 @@ const router = express.Router();
 // sets API routes
 router.use(require('./candidateRoutes'));
 router.use(require('./partyRoutes'));
+router.use(require('./voterRoutes'));
 
 // exports router module
 module.exports = router;
